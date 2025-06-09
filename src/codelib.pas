@@ -1640,7 +1640,7 @@ var
 begin
   Result := -1;
   if not IsSnippet(Key) then
-    Result := FolderImageIndex
+    Result := OpenFolderImageIndex
   else
   begin
     Result := 18;
